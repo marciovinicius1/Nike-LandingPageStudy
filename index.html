@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike Joyride</title>
+
+    <!------------Swiper------------>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!------------Styles------------>
+    <link rel="stylesheet" href="style.css" />
+
+    <!------------Icons------------>
+    <link rel="stylesheet" href="Utils/fonts/style.css" />
+
+    <!------------Fonts------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER --------------------------------------------------------------------- -->
+    <header id="header">
+      <nav class="container">
+        <a href="#"><img src="Utils\Imgs\LogoNike.png" alt="Logo Nike" /></a>
+        <!------------Menu------------>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#testmonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu-button"></div>
+        <div class="toggle icon-x"></div>
+      </nav>
+    </header>
+
+    <!-- HOME --------------------------------------------------------------------- -->
+    <main>
+      <section class="container" id="home">
+        <span id="hl1">
+          <h1>
+            &nbspNike Joyride, tecnologia <br />
+            que proporciona <strong>conforto</strong> <br />
+            e <strong>desempenho</strong>.
+          </h1>
+          <img src="Utils/Imgs/edit3.png" alt="Imagem do Tênis"
+        /></span>
+        <a href="#" class="cta">COMPRE AGORA</a>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- ABOUT --------------------------------------------------------------------- -->
+      <section class="container" id="about">
+        <img src="utils/Imgs/edit2.png" alt="imagem tenis" id="edit2" />
+        <div class="text" id="text-about">
+          <h2>
+            O <strong>Joyride</strong> foi projetado para ajudar a manter as
+            pernas aquecidas com grande absorção de impacto que se adapta ao pé
+            a cada passo. <br />
+            <strong
+              >Um pacote com retorno de energia surpreendente leve.</strong
+            >
+          </h2>
+        </div>
+        <div class="cards grid">
+          <div class="card">
+            <img src="utils/Imgs/Feather.png" alt="" />
+            <h2>Leveza</h2>
+            <p>
+              O peso leve deste calçado tem sido um ponto bastante notado por
+              corredores e corredoras.
+            </p>
+          </div>
+          <div class="card">
+            <img src="utils/Imgs/Pillow.png" alt="" />
+            <h2>Conforto</h2>
+            <p>
+              O cabedal do Nike Joyride Run Flyknit proporciona conforto e
+              respirabilidade devido seus ajustes.
+            </p>
+          </div>
+          <div class="card">
+            <img src="utils/Imgs/Performance.png" alt="" />
+            <h2>Desempenho</h2>
+            <p>
+              Alguns usuários posicionam o Nike Joyride Run Flyknit como o
+              calçado de maior absorção de impactos já desenvolvido pela marca.
+            </p>
+          </div>
+        </div>
+
+        <div class="divider-1"></div>
+      </section>
+
+      <!-- TESTMONIALS --------------------------------------------------------------------- -->
+      <section class="container" id="testmonials">
+        <div>
+          <header>
+            <img src="/Utils/Imgs/avaliacao-do-cliente.png" alt="" />
+            <h2>Depoimentos de atletas <strong>Nike</strong></h2>
+          </header>
+          <div class="testmonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testmonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Uma vez que você calçar este tênis sentirá vontade de
+                    correr. Uma vez que você correr com eles garanto que não irá
+                    se decepcionar!
+                  </p>
+                  <cite>
+                    <img src="Utils/Imgs/dp.png" alt="Imagem atleta" />
+                    Ana Beatriz
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testmonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    O Nike Joyride Run Flyknit é luxuoso desde o primeiro passo
+                    e ideal para corridas de recuperação. Também é acessível
+                    para seu mercado-alvo.
+                  </p>
+                  <cite>
+                    <img src="Utils/Imgs/dp2.png" alt="Imagem atleta" />
+                    Jane McGuire
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testmonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Este tênis foi projetado para competir o Hoka Clifton 5, que
+                    é um dos calçados de amortecimento leve mais popular do
+                    mercado.
+                  </p>
+                  <cite>
+                    <img src="Utils/Imgs/dp3.png" alt="Imagem atleta" />
+                    Ana Beatriz
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <!-- If we need scrollbar -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCT LIST --------------------------------------------------------------------- -->
+      <section class="container" id="productlist">
+        <div class="image">
+          <img
+            id="imagemp1"
+            src="./Utils/Imgs/product image.png"
+            alt="imagem do produto"
+          />
+        </div>
+        <a href="#" class="cta2">ADICIONE AO CARRINHO</a>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACT --------------------------------------------------------------------- -->
+      <section class="container" id="contact">
+        <header>
+          <div id="boximg"><img src="./Utils/Imgs/support.png" alt="" /></div>
+          <h2>Entre em contato com a gente!</h2>
+          <p>
+            Entre em contato com a loja,<br />
+            queremos tirar suas dúvidas ouvir suas criticas e sugestoes
+          </p>
+          <a class="cta" href="#"
+            ><i class="icon-whatsapp"></i> Entrar em contato</a
+          >
+        </header>
+      </section>
+    </main>
+    <!--FOOTER --------------------------------------------------------------------- -->
+    <footer>
+      <section class="container" id="footer">
+        <img src="./Utils/Imgs/LogoNike.png" alt="" />
+        <div id="textfooter">
+          <h2>© made by marcio vinicius.</h2>
+          <p>Todos os direitos reservados.</p>
+          <p>Nike Landing Page study.</p>
+        </div>
+      </section>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrowup"></i></a>
+
+    <!------------Swiper------------>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!------------ScrollReveal------------>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!------------main.js------------>
+    <script src="main.js"></script>
+  </body>
+</html>
